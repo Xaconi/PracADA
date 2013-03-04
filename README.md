@@ -1,10 +1,7 @@
-
 ## Install
 ```sh
-  $ npm install										// Install the extras node modules
-  $ cp config/config.example.js config/config.js	// Extend the main config file
-  $ cp config/imager.example.js config/imager.js	// Extend the main imager file
-  $ nodemon server.js								// Start nodemon
+    > mongod --config mongodb.config  // Start MongoDB
+  $ nodemon server.js								  // Start nodemon
 ```
 
 **NOTE:** Must be initiated the MongoDB client (Download here: http://www.mongodb.org/ , Install here: http://fernetjs.com/2012/08/buenos-amigos-nodejs-mongodb/)
@@ -29,5 +26,5 @@ Then visit [http://localhost:3000/](http://localhost:3000/)
 ## License
 (Open Source)
 
-Nicolás Joel Giacconi Fernández (xaco.89@gmail.com)
-Óscar Simón Castillo (oscar.s.c@hotmail.com)
+Nicolï¿½s Joel Giacconi Fernï¿½ndez (xaco.89@gmail.com)
+ï¿½scar Simï¿½n Castillo (oscar.s.c@hotmail.com)
