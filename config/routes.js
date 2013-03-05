@@ -47,5 +47,9 @@ module.exports = function (app, passport, auth) {
   // tag routes
   var tags = require('../app/controllers/tags')
   app.get('/tags/:tag', tags.index)
+  
+  // record routes
+  var records = require('../app/controllers/Record')
+  app.get('/records', records.create)
 
 }
